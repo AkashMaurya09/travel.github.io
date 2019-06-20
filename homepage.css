@@ -1,0 +1,49 @@
+body{
+  	margin: 0;
+  	padding:0;
+  	font-family: sans-serif;
+
+  	
+  }
+  .para1{
+    margin-top: 900px;
+  }
+  .para2{
+    margin-top: 950px;
+  }
+  .spoon{
+  	position: absolute;
+  	top: 50%;
+    padding: 30px;
+    margin-top: 900px;
+    background: #fff;
+  	box-sizing: border-box;
+  	border-radius: 10px;
+  	box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+    border: solid black 2px ;
+    margin-left: 10px;
+    margin-right: 10px;
+  }  				
+  .circle{
+  	width: 200px;
+  	height: 200px;
+  	background: url(kasauli.jpg);
+    background-position: center;
+  	border-radius: 50%;
+  	float: left;
+  	shape-outside: circle();
+  	margin:60px 30px 30px 0;
+  }
+  p{
+  	margin:0;
+  	padding: 0;
+  	text-align: justify;
+  	line-height: 22px;  
+  	  }
+  h1{
+  	margin:0 0 20px;
+  	padding: 0;
+  	font-size: 30px;
+    color: black;
+  }
+  

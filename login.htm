@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Enquiry For Call Back</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Footer-with-social-icons.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="Footer-with-social-icons.css">
+        <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+        <style>
+            header
+            {
+                border-bottom: solid 5px red;
+            }
+            .sticky 
+            {
+                position: fixed;
+                top: 0;
+                width: 110%;
+                z-index: 10;
+            }
+
+            .sticky + .content 
+            {
+                padding-top: 102px;
+            }
+
+
+            .header 
+            {
+                padding: 10px 16px;
+                background: #555;
+                color: #f1f1f1;
+            }
+            .sticky + .content
+            {
+                padding-top: 102px;
+            }
+        </style>
+    </head>
+<html>    
+    <body>
+    <div>
+    <header>
+      <div class="row" id="myHeader">
+            <ul class="main-nav">
+          <li class="active"><a href="http://localhost/home.htm">HOME</a></li>
+          <li><a href="http://localhost/package.htm">PACKAGES</a></li>
+          <li><a href="http://localhost/cardetails.htm">PRIVATE CAR</a></li>
+          <li><a href="">CONTACT US</a></li>
+          <li><a href="">ENQUIRY</a></li>
+        </ul>
+      </div>      
+    </header>
+    </div>
+  <div>
+      <img src="kullu.jpg" style="height: 75vh; width: 100%">
+  </div>
+
+        <div class="box">
+            <h2>Enquiry</h2>
+            <form method="post" action="login.php">
+                <div class="inputBox">
+                    <input type="text" name="name" required="">
+                    <label>Your Name</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="email" required="">
+                    <label>Email ID</label>
+                </div>
+                <input type="submit" name="" value="Submit">
+            </form>
+        </div>
+
+        
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 myCols">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="http://localhost/home.htm">Home</a></li>
+                        <li><a href="http://localhost/login.htm">Enquiry</a></li>
+                        <li><a href="http://localhost/package.htm">Pakages</a></li>
+                        <li><a href="http://localhost/cardetails.htm">Private Car</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook-official"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2019 Copyright Text </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+        header.classList.remove("sticky");
+        }
+        }
+    </script>
+    </body>
+</html>
